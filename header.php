@@ -85,12 +85,20 @@ ini_set("display_errors", 0);
             border-radius: 5px;
         }
 
+        .div-mobile-logo {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
 
         @media (max-width: 575.98px) {
 
             .logo-bolsa {
                 margin: auto;
-             
+                width: 100%;
             }
         }
     </style>
@@ -105,7 +113,9 @@ ini_set("display_errors", 0);
     <!-- <link rel="stylesheet" href="assets/css/materialdesignicons.min.css"> -->
 
     <link rel="preload" href="assets/css/materialdesignicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript> <link rel="stylesheet" href="assets/css/materialdesignicons.min.css"></noscript>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+    </noscript>
 
 
 </head>

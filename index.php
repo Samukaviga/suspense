@@ -3,10 +3,14 @@
 
 <!-- STRAT NAVBAR -->
 <nav id="navbar" class="navbar navbar-expand-lg fixed-top sticky">
-    <a class="navbar-brand" href="./" style="padding: 0 50px">
+    <a class="navbar-brand" href="/" style="padding: 0 50px">
         <img src="assets/images/logo-dark.png" alt="logo" height="50" class="logo-light" />
-        <img src="assets/images/logo-dark.png" alt="logo" height="40" class="logo-dark" />
     </a>
+    <div class="div-mobile-logo">
+        <a class="navbar-brand" href="/">
+            <img src="assets/images/logo-dark.png" alt="logo" height="40" class="logo-dark" />
+        </a>
+    </div>
     <div class="container">
         <!-- ## Botao barra nav ##
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -42,22 +46,22 @@
 </script>
 
 <section class="bg-home4" id="home">
-   
-<div class="bg-overlay"></div>
-  
+
+    <div class="bg-overlay"></div>
+
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 text-center">
-            
-                  <img
-                        src="./assets/images/texto-suspense.png"
-                        alt="Logo bolsas azul"
-                        class="img-fluid logo-bolsa"
-                        width="1000" height="800"
-                        fetchpriority="high">
-             
+
+                <img
+                    src="./assets/images/texto-suspense.png"
+                    alt="Logo bolsas azul"
+                    class="img-fluid logo-bolsa"
+                    
+                    fetchpriority="high">
+
             </div>
-             <!--
+            <!--
             <div class="col-md-1"></div>
            
             <div class="col-md-5 relative align-self-center mt-5">
